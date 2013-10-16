@@ -26,7 +26,7 @@ namespace VoyagerExtractorQuickstart
         {
             get
             {
-                return "quickstart";
+                return "basic";
             }
         }
 

@@ -8,8 +8,8 @@
     <ProjectGuid>{C122D94C-6D5B-4867-906A-36AF10249CF1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>VoyagerExtractorQuickstart</RootNamespace>
-    <AssemblyName>VoyagerExtractorQuickstart</AssemblyName>
+    <RootNamespace>VoyagerExtractorBasic</RootNamespace>
+    <AssemblyName>VoyagerExtractorBasic</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -42,7 +42,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="VoyagerExtractorQuickstart.cs" />
+    <Compile Include="VoyagerExtractorBasic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

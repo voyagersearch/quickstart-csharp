@@ -18,7 +18,7 @@ namespace VoyagerExtractorQuickstart
             FileInfo info = getValidFile(job);
             VgEntry entry = job.getValidEntry();
             entry.setField(VgDexField.ACCESS_TIME, info.LastAccessTimeUtc);
-            entry.setField(VgDexField.META_CREATION_DATE, info.CreationTimeUtc);
+            entry.setField(VgDexField.CREATED, info.CreationTimeUtc);
             entry.setField(VgDexField.BYTES, info.Length.ToString());
         }
 
